@@ -1,1 +1,93 @@
-<p>nav-bar works!</p>
+<header
+  class="header"
+  [ngClass]="{
+    sticker: !sidebarVisible,
+    header: true,
+
+  }"
+>
+  <div class="container-custom">
+    <!-- ************** MOBILE ************** -->
+    <nav class="nav showSectionMobile">
+      <div class="flex align-items-center gap-3">
+        <p class="item">
+          <a href="#home">Landing Page</a>
+        </p>
+      </div>
+
+      <div>
+        <i class="pi pi-th-large nav-icon" (click)="sidebarVisible = true"></i>
+      </div>
+    </nav>
+
+    <p-sidebar [(visible)]="sidebarVisible" position="bottom">
+      <ng-template pTemplate="content">
+        <div class="flex justify-content-between pt-2 pb-2">
+          <div
+            class="flex flex-column align-items-center"
+            (click)="closeSidebar()"
+          >
+            <i class="pi pi-user nav-icon-sidebar"></i>
+            <a href="#about-me">
+              <p>Quiénes somos</p>
+            </a>
+          </div>
+          <div
+            class="flex flex-column align-items-center"
+            (click)="closeSidebar()"
+          >
+            <i class="pi pi-code nav-icon-sidebar"></i>
+            <a href="#projects">
+              <p>Ventajas</p>
+            </a>
+          </div>
+          <!-- <div
+            class="flex flex-column align-items-center"
+            (click)="closeSidebar()"
+          >
+            <i class="pi pi-cog nav-icon-sidebar"></i>
+            <a href="#skills">
+              <p>Skills</p>
+            </a>
+          </div> -->
+          <div
+            class="flex flex-column align-items-center"
+            (click)="closeSidebar()"
+          >
+            <i class="pi pi-whatsapp nav-icon-sidebar"></i>
+            <a href="mailto:mariaelena.arocena@gmail.com">
+              <p>Contacto</p>
+            </a>
+          </div>
+        </div>
+      </ng-template>
+    </p-sidebar>
+
+    <!-- ************** DESK ************** -->
+    <nav class="nav showSectionDesk">
+      <div class="flex align-items-center gap-3">
+        <p class="item">
+          <a href="#home">Landing Page</a>
+        </p>
+      </div>
+      <ul class="flex gap-4">
+        <li class="item">
+          <a href="#about-me">Quiénes somos</a>
+        </li>
+        <li class="item">
+          <a href="#projects">Ventajas</a>
+        </li>
+
+        <!-- <li class="item">
+          <a href="#skills">Skills</a>
+        </li> -->
+        <li class="item">
+          <a href="mailto:mariaelena.arocena@gmail.com">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!--
+<p-inputSwitch [(ngModel)]="checked" (click)="onThemeChange(checked ? 'dark' : 'light')"></p-inputSwitch> -->
