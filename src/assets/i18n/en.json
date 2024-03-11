@@ -1,4 +1,8 @@
 {
   "HELLO": "Hello",
-  "WELCOME": "Welcome to my website"
+  "WELCOME": "Welcome to my website",
+
+  "navAbout": "About us",
+  "navAdvantages": "Advantages",
+  "navContact": "Contact"
 }

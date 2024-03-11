@@ -29,7 +29,7 @@
           >
             <i class="pi pi-user nav-icon-sidebar"></i>
             <a href="#about-me">
-              <p>Quiénes somos</p>
+              <p>{{ "navAbout" | translate }}</p>
             </a>
           </div>
           <div
@@ -38,7 +38,7 @@
           >
             <i class="pi pi-code nav-icon-sidebar"></i>
             <a href="#projects">
-              <p>Ventajas</p>
+              <p>{{ "navContact" | translate }}</p>
             </a>
           </div>
           <!-- <div
@@ -56,7 +56,7 @@
           >
             <i class="pi pi-whatsapp nav-icon-sidebar"></i>
 
-            <p>Contacto</p>
+            <p>{{ "navAdvantages" | translate }}</p>
           </div>
         </div>
       </ng-template>
@@ -71,16 +71,16 @@
       </div>
       <ul class="flex gap-4">
         <li class="item">
-          <a href="#about-me">Quiénes somos</a>
+          <a href="#about-me">{{ "navAbout" | translate }}</a>
         </li>
         <li class="item">
-          <a href="#projects">Ventajas</a>
+          <a href="#projects">{{ "navAdvantages" | translate }}</a>
         </li>
 
         <!-- <li class="item">
           <a href="#skills">Skills</a>
         </li> -->
-        <li class="item">Contacto</li>
+        <li class="item">{{ "navContact" | translate }}</li>
       </ul>
     </nav>
   </div>

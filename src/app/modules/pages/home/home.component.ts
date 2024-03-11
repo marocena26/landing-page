@@ -11,7 +11,7 @@ export class HomeComponent {
   sidebarVisible: boolean = false;
 
   constructor(private translate: TranslateService) {
-    translate.setDefaultLang('en'); 
+    translate.setDefaultLang('es');
   }
 
   changeLanguage(language: string) {

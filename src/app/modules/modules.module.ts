@@ -7,9 +7,7 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { ReasonsToChooseComponent } from './pages/reasons-to-choose/reasons-to-choose.component';
 import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 
-import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
-import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { TranslateModule,  } from '@ngx-translate/core';
 
 @NgModule({
   declarations: [
@@ -21,18 +19,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     CommonModule,
     ModulesRoutingModule,
     PrimeNgModule,
-    HttpClientModule,
-    TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
-        deps: [HttpClient]
-      }
-    })
+    TranslateModule
   ]
 })
 export class ModulesModule { }
 
-export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http);
-}

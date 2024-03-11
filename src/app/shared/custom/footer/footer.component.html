@@ -1,19 +1,41 @@
 <footer class="footer">
   <div class="container-custom flex flex-column gap-4">
-    <div class="flex justify-content-between footer__navegate">
-      <div>
+    <div class="flex justify-content-between">
+      <div class="flex flex-column gap-3">
         <ul class="flex flex-column gap-3">
-          <li><a href="#about-me">Quiénes somos</a></li>
-          <li><a href="#projects">Ventajas</a></li>
+          <li><a href="#about-us">{{ "navAbout" | translate }}</a></li>
+          <li><a href="#advantages">{{ "navAdvantages" | translate }}</a></li>
           <!-- <li><a href="#skills">Skills</a></li> -->
-          <li>Contacto</li>
+          <li><a href="#">{{ "navContact" | translate }}</a></li>
         </ul>
+
+        <div class="flex gap-3">
+          <a (click)="changeLanguage('es')"
+            ><img
+              src="../../../assets/icon/es.svg"
+              alt="ES"
+              class="lenguage-icon pointer"
+          /></a>
+          <a (click)="changeLanguage('en')"
+            ><img
+              src="../../../assets/icon/gb.svg"
+              alt="EN"
+              class="lenguage-icon pointer"
+          /></a>
+        </div>
       </div>
       <div class="flex gap-3">
-        <i class="pi pi-envelope footer-icon"></i>
-        <i class="pi pi-facebook footer-icon"></i>
-        <i class="pi pi-linkedin footer-icon"></i>
-        <i class="pi pi-twitter footer-icon"></i>
+        <a href="mailto:mariaelena.arocena@gmail.com"
+          ><i class="pi pi-envelope footer-icon"></i
+        ></a>
+        <a target="_blank" href="https://github.com/marocena26"
+          ><i class="pi pi-github footer-icon"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/maria-elena-arocena-lopez-/"
+          ><i class="pi pi-linkedin footer-icon"></i
+        ></a>
       </div>
     </div>
     <div>
