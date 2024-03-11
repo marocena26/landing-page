@@ -5,6 +5,7 @@ import { ModulesRoutingModule } from './modules-routing.module';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { ReasonsToChooseComponent } from './pages/reasons-to-choose/reasons-to-choose.component';
+import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { ReasonsToChooseComponent } from './pages/reasons-to-choose/reasons-to-c
   imports: [
     CommonModule,
     ModulesRoutingModule,
+    PrimeNgModule
   ]
 })
 export class ModulesModule { }

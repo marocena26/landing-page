@@ -3,6 +3,11 @@
 .footer {
   // background: $color-primary;
   padding: 24px 0;
+  &__navegate{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
 }
 
 .footer-icon {
@@ -51,6 +56,14 @@ ul {
 // ====================== REPONSIVE PROPERTIES =================
 
 @media (min-width: 768px) {
+
+  .footer {
+    &__navegate{
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
   .footer-icon {
     font-size: 28px;
   }

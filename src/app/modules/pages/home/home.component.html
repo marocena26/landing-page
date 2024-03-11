@@ -1,3 +1,27 @@
-<p>home works!</p>
-<about-us></about-us>
-<reasons-to-choose></reasons-to-choose>
+<main class="container-custom">
+  <section class="home">
+    <div>
+      <h1>ANONYMOUS PROXY</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    </div>
+    <div>
+      <p-button label="Contáctanos"></p-button>
+    </div>
+    <div (click)="sidebarVisible = true">
+      <p>¿Hablamos?</p>
+    </div>
+  </section>
+
+  <p-sidebar [(visible)]="sidebarVisible">
+    <h3>Sidebar</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </p>
+  </p-sidebar>
+
+  <about-us></about-us>
+  <reasons-to-choose></reasons-to-choose>
+</main>

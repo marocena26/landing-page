@@ -2,6 +2,7 @@
     "conventionalCommits.scopes": [
         "app",
         "nav-bar",
-        "footer"
+        "footer",
+        "home"
     ]
 }

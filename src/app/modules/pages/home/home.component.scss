@@ -1,0 +1,28 @@
+@import "../../../../themes/variables.scss";
+
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+// ====================== GENERAL PROPERTIES =================
+
+h1{
+  font-size: 42px;
+  // text-align: center;
+}
+
+.container-custom {
+  width: 90%;
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// ====================== REPONSIVE PROPERTIES =================
+
+@media (min-width: 768px) {}
