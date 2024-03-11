@@ -1,11 +1,17 @@
 {
   "buttonHome": "Contáctanos",
+  "buttonAbout": "Saber más",
   "sidebarHome": "¿Hablamos?",
 
 
   "navAbout": "Quiénes somos",
   "navAdvantages": "Ventajas",
   "navContact": "Contacto",
+
+  "aboutTitle": "Sobre nosotros",
+  "aboutSubTitle": "Sobre nosotros Subtitle",
+  "aboutDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
 
   "advantageTitle": "3 razones para confiar en nosotros",
   "advantageSubTitle": "Razón 1",
