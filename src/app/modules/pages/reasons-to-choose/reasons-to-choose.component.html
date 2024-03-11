@@ -1,1 +1,15 @@
-<p>reasons-to-choose works!</p>
+<section class="advantages">
+  <div class="container-custom">
+    <div>
+      <h3>{{ "navAdvantages" | translate }}</h3>
+      <h2>{{ "advantageTitle" | translate }}</h2>
+    </div>
+    <div class="flex justify-content-between">
+      <div *ngFor="let advantage of advantages" class="advantages-card">
+        <img src="" alt="" />
+        <h3>{{ advantage.name }}</h3>
+        <span>{{ advantage.description }}</span>
+      </div>
+    </div>
+  </div>
+</section>

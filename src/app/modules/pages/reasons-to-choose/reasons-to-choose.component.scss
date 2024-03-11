@@ -1,0 +1,28 @@
+@import "../../../../themes/variables.scss";
+
+.advantages {
+  padding: 36px 0;
+  background: peachpuff;
+}
+
+.advantages-card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+// ====================== GENERAL PROPERTIES =================
+
+.container-custom {
+  width: 90%;
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// ====================== REPONSIVE PROPERTIES =================
+
+@media (min-width: 768px) {
+}

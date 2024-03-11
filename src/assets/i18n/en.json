@@ -5,5 +5,19 @@
 
   "navAbout": "About us",
   "navAdvantages": "Advantages",
-  "navContact": "Contact"
+  "navContact": "Contact",
+
+  "advantageTitle": "3 reasons to trust us",
+  "advantageSubTitle": "Reason 1",
+  "advantageDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+
+  "advantageSubTitle2": "Reason 2",
+  "advantageDescription2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+
+  "advantageSubTitle3": "Reason 3",
+  "advantageDescription3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+
+  "prueba": "Advantages"
+
+
 }
