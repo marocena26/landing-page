@@ -8,12 +8,14 @@ import { ReasonsToChooseComponent } from './pages/reasons-to-choose/reasons-to-c
 import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 
 import { TranslateModule,  } from '@ngx-translate/core';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     AboutUsComponent,
-    ReasonsToChooseComponent
+    ReasonsToChooseComponent,
+    ContactComponent
   ],
   imports: [
     CommonModule,
