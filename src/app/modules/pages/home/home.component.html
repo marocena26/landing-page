@@ -1,7 +1,7 @@
 <main class="container-custom">
   <section class="home">
     <div>
-      <h1>ANONYMOUS PROXY</h1>
+      <h1>{{ 'WELCOME' | translate }}</h1>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
     </div>
     <div>
@@ -10,6 +10,8 @@
     <div (click)="sidebarVisible = true">
       <p>¿Hablamos?</p>
     </div>
+    <button (click)="changeLanguage('en')">English</button>
+    <button (click)="changeLanguage('es')">Español</button>
   </section>
 
   <p-sidebar [(visible)]="sidebarVisible">
