@@ -18,4 +18,8 @@ export class HomeComponent {
     this.translate.use(language);
   }
 
+  onHover(hover: boolean) {
+    if (hover) this.sidebarVisible = hover;
+  }
+
 }

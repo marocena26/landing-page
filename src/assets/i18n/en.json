@@ -1,6 +1,7 @@
 {
-  "HELLO": "Hello",
-  "WELCOME": "Welcome to my website",
+  "buttonHome": "Contact",
+  "sidebarHome": "Shall we talk?",
+
 
   "navAbout": "About us",
   "navAdvantages": "Advantages",

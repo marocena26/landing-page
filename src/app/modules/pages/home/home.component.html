@@ -1,20 +1,22 @@
 <main class="container-custom">
   <section class="home">
     <div>
-      <h1>{{ 'WELCOME' | translate }}</h1>
+      <h1>Lorem, ipsum.</h1>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      <p-button label="{{ 'buttonHome' | translate }}"></p-button>
     </div>
-    <div>
-      <p-button label="Contáctanos"></p-button>
+    <div (click)="sidebarVisible = true" class="home__contact">
+      <p
+        class="home__contact-text"
+        (mouseenter)="onHover(true)"
+        (mouseleave)="onHover(false)"
+      >
+        {{ "sidebarHome" | translate }}
+      </p>
     </div>
-    <div (click)="sidebarVisible = true">
-      <p>¿Hablamos?</p>
-    </div>
-    <button (click)="changeLanguage('en')">English</button>
-    <button (click)="changeLanguage('es')">Español</button>
   </section>
 
-  <p-sidebar [(visible)]="sidebarVisible">
+  <p-sidebar [(visible)]="sidebarVisible" position="right">
     <h3>Sidebar</h3>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
