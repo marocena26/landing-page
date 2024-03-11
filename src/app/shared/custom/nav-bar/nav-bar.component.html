@@ -28,7 +28,7 @@
             (click)="closeSidebar()"
           >
             <i class="pi pi-user nav-icon-sidebar"></i>
-            <a href="#about-me">
+            <a href="#about-us">
               <p>{{ "navAbout" | translate }}</p>
             </a>
           </div>
@@ -37,26 +37,19 @@
             (click)="closeSidebar()"
           >
             <i class="pi pi-code nav-icon-sidebar"></i>
-            <a href="#projects">
-              <p>{{ "navContact" | translate }}</p>
+            <a href="#advantages">
+              <p>{{ "navAdvantages" | translate }}</p>
             </a>
           </div>
-          <!-- <div
-            class="flex flex-column align-items-center"
-            (click)="closeSidebar()"
-          >
-            <i class="pi pi-cog nav-icon-sidebar"></i>
-            <a href="#skills">
-              <p>Skills</p>
-            </a>
-          </div> -->
           <div
             class="flex flex-column align-items-center"
             (click)="closeSidebar()"
           >
             <i class="pi pi-whatsapp nav-icon-sidebar"></i>
 
-            <p>{{ "navAdvantages" | translate }}</p>
+            <a href="#contact">
+              <p>{{ "navContact" | translate }}</p>
+            </a>
           </div>
         </div>
       </ng-template>
@@ -71,20 +64,18 @@
       </div>
       <ul class="flex gap-4">
         <li class="item">
-          <a href="#about-me">{{ "navAbout" | translate }}</a>
+          <a href="#about-us">{{ "navAbout" | translate }}</a>
         </li>
         <li class="item">
-          <a href="#projects">{{ "navAdvantages" | translate }}</a>
+          <a href="#advantages">{{ "navAdvantages" | translate }}</a>
         </li>
-
-        <!-- <li class="item">
-          <a href="#skills">Skills</a>
-        </li> -->
-        <li class="item">{{ "navContact" | translate }}</li>
+        <li class="item">
+          <a href="#contact">
+            {{ "navContact" | translate }}
+          </a>
+        </li>
       </ul>
     </nav>
+
   </div>
 </header>
-
-<!--
-<p-inputSwitch [(ngModel)]="checked" (click)="onThemeChange(checked ? 'dark' : 'light')"></p-inputSwitch> -->

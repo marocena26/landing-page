@@ -2,23 +2,24 @@
 
 .home {
   height: 100vh;
-  // position: relative;
+  background: $color-secondary;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+
   &__contact {
     position: absolute;
     right: 0;
-    writing-mode: vertical-rl;
-    width: 55px;
+    padding: 36px 24px;
+    background: white;
     border-radius: 10px 0px 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     &-text {
       font-size: 32px;
       line-height: 39px;
       letter-spacing: -0.02em;
       transform: rotate(-180deg);
+      writing-mode: vertical-rl;
     }
   }
 }
@@ -27,7 +28,10 @@
 
 h1 {
   font-size: 42px;
-  // text-align: center;
+}
+
+p {
+  font-size: 24px;
 }
 
 .container-custom {
@@ -39,5 +43,16 @@ h1 {
 
 // ====================== REPONSIVE PROPERTIES =================
 
+.showSectionMobile {
+  display: flex;
+}
+
+.showSectionDesk {
+  display: none;
+}
+
 @media (min-width: 768px) {
+  .showSectionDesk {
+    display: flex;
+  }
 }

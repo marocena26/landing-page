@@ -1,9 +1,11 @@
-<section class="contact">
-  <div class="container-custom">
-    <h3>{{ "contactSubTitle" | translate }}</h3>
-    <h2>{{ "contactTitle" | translate }}</h2>
-    <div>
+<section class="contact" id="contact">
+  <div class="container-custom contact__wrap">
+    <div class="flex flex-column gap-2 contact-left">
+      <h3>{{ "contactSubTitle" | translate }}</h3>
+      <h2>{{ "contactTitle" | translate }}</h2>
       <p>{{ "contactDescription" | translate }}</p>
+    </div>
+    <div class="contact-right">
       <p-button label="{{ 'buttonAbout' | translate }}"></p-button>
     </div>
   </div>

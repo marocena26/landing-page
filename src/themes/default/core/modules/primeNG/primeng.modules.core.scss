@@ -1,7 +1,31 @@
 @import "../../../../variables.scss";
 
 @mixin primeng-modules() {
+  // ====================== BUTTON =================
 
-  // ====================== COMPONENTS =================
+  .p-button {
+    color: #ffffff;
+    background: $button-principal;
+    border: 1px solid $button-principal;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+      box-shadow 0.2s;
+    border-radius: 24px;
+  }
+  .p-button:not(:disabled):active {
+    background: $button-principal;
+    color: #ffffff;
+    border-color: $button-principal;
+  }
 
+  .p-button:not(:disabled):hover {
+    transition: 0.5s;
+    background:$button-principal-hover;
+    color: #ffffff;
+    border-color: $button-principal-hover;
+  }
+  .p-button:focus {
+    box-shadow: none;
+  }
 }

@@ -2,13 +2,53 @@
 
 .contact {
   padding: 36px 0;
+  height: 300px;
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 
 // ====================== GENERAL PROPERTIES =================
 
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+  color: $color-tertiary;
+}
+
 .container-custom {
   width: 90%;
+  height: 100%;
   max-width: none;
   margin-left: auto;
   margin-right: auto;
+}
+
+// ====================== REPONSIVE PROPERTIES =================
+
+@media (min-width: 768px) {
+  .contact {
+    padding: 42px 0;
+    height: 100%;
+    &__wrap {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  .contact-left {
+    width: 50%;
+  }
+
+  .contact-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 50%;
+  }
 }

@@ -1,10 +1,12 @@
-<section class="about">
+<section class="about" id="about-us">
   <div class="about__info">
-    <div class="container-custom">
-      <h3>{{ "aboutSubTitle" | translate }}</h3>
-      <h2>{{ "aboutTitle" | translate }}</h2>
-      <div>
+    <div class="container-custom flex flex-column justify-content-between">
+      <div class="flex flex-column gap-2">
+        <h3>{{ "aboutSubTitle" | translate }}</h3>
+        <h2>{{ "aboutTitle" | translate }}</h2>
         <p>{{ "aboutDescription" | translate }}</p>
+      </div>
+      <div>
         <p-button label="{{ 'buttonAbout' | translate }}"></p-button>
       </div>
     </div>

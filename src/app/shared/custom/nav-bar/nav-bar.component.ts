@@ -13,5 +13,5 @@ export class NavBarComponent {
   closeSidebar(): void {
     this.sidebarVisible = false;
   }
-  
+
 }
