@@ -10,8 +10,8 @@
   "homeTitle": "Web Title",
   "homeSubTitle": "Web Subtitle",
 
-  "aboutTitle": "About us",
-  "aboutSubTitle": "Discover a new way to take care of your health",
+  "aboutTitle": "Discover a new way to take care of your health",
+  "aboutSubTitle": "About us",
   "aboutDescription": "If you don't currently have a cat and are considering bringing one into your life, you should know that a study conducted with nearly a hundred participants resulted in better scores on a general health questionnaire compared to people who did not have a pet. In people with a pet, there was a significant reduction in the incidence of minor health problems during this period. So... what are you waiting for?",
 
   "advantageTitle": "The welfare of having a cat as a pet",
@@ -24,9 +24,9 @@
   "advantageSubTitle3": "Therapeutic effect",
   "advantageDescription3": "Physical contact with pets increases levels of oxytocin, a hormone that is linked to the establishment of social relationships.",
 
-  "contactTitle": "Contact",
-  "contactSubTitle": "Contact Subtitle",
-  "contactDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "contactSubTitle": "Contact",
+  "contactTitle": "Ready to enjoy all these benefits?",
+  "contactDescription": "Talk to our feline care experts and find out how a cat's companionship can change your day.",
 
   "formName": "Name",
   "formLastName": "Last name",

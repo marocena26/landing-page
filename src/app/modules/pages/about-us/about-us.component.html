@@ -1,6 +1,6 @@
 <section class="about" id="about-us">
   <div class="about__info">
-    <div class="container-custom flex flex-column justify-content-between">
+    <div class="container-custom flex flex-column gap-4">
       <div class="flex flex-column gap-2">
         <h3>{{ "aboutSubTitle" | translate }}</h3>
         <h2>{{ "aboutTitle" | translate }}</h2>
@@ -14,11 +14,18 @@
       </div>
     </div>
   </div>
-  <div class="about__background"></div>
+  <div class="about__background">
+    <img
+      src="../../../../assets/img/pexels-photo-460985.jpeg"
+      alt="Cat photo"
+      class="img-about"
+    />
+  </div>
 
   <p-sidebar [(visible)]="sidebarVisible" position="right">
-    <ng-template pTemplate="header">{{ "sidebarHome" | translate }}</ng-template>
+    <ng-template pTemplate="header">{{
+      "sidebarHome" | translate
+    }}</ng-template>
     <ng-template pTemplate="content"><landing-form></landing-form></ng-template>
-
   </p-sidebar>
 </section>
