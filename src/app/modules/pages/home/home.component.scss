@@ -6,22 +6,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  &__contact {
-    position: absolute;
-    right: 0;
-    padding: 36px 24px;
-    background: white;
-    border-radius: 10px 0px 0px 10px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    &-text {
-      font-size: 32px;
-      line-height: 39px;
-      letter-spacing: -0.02em;
-      transform: rotate(-180deg);
-      writing-mode: vertical-rl;
-    }
-  }
 }
 
 // ====================== GENERAL PROPERTIES =================
@@ -54,5 +38,41 @@ p {
 @media (min-width: 768px) {
   .showSectionDesk {
     display: flex;
+  }
+
+  .home {
+    &__contact {
+      height: 400px;
+      position: absolute;
+      right: 0;
+
+      padding: 36px 24px;
+
+      background: white;
+      border-radius: 10px 0px 0px 10px;
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+      align-items: center;
+
+      &-text {
+        font-size: 32px;
+        line-height: 39px;
+        letter-spacing: -0.02em;
+        transform: rotate(-180deg);
+        writing-mode: vertical-rl;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .showSectionDesk {
+    display: flex;
+  }
+
+  .home {
+    &__contact {
+      height: 420px;
+    }
   }
 }

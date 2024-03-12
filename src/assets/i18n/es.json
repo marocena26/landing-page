@@ -3,7 +3,6 @@
   "buttonAbout": "Saber más",
   "sidebarHome": "¿Hablamos?",
 
-
   "navAbout": "Quiénes somos",
   "navAdvantages": "Ventajas",
   "navContact": "Contacto",
@@ -15,7 +14,6 @@
   "aboutSubTitle": "Sobre nosotros Subtitle",
   "aboutDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 
-
   "advantageTitle": "3 razones para confiar en nosotros",
   "advantageSubTitle": "Razón 1",
   "advantageDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
@@ -26,12 +24,15 @@
   "advantageSubTitle3": "Razón 3",
   "advantageDescription3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
 
-
   "contactTitle": "Contacto",
   "contactSubTitle": "Contacto Subtitle",
   "contactDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 
+  "formName": "Nombre",
+  "formLastName": "Apellido",
+  "formMobile": "Teléfono",
+  "formComment": "Mensaje",
+  "formCommentPlaceHolder": "Por favor, indique en qué podemos ayudarle",
 
   "prueba": "Advantages"
-
 }

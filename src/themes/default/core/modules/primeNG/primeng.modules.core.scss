@@ -21,11 +21,55 @@
 
   .p-button:not(:disabled):hover {
     transition: 0.5s;
-    background:$button-principal-hover;
+    background: $button-principal-hover;
     color: #ffffff;
     border-color: $button-principal-hover;
   }
   .p-button:focus {
     box-shadow: none;
+  }
+
+  // ====================== SIDEBAR =================
+
+  .p-sidebar {
+    @media (min-width: 768px) {
+      border-radius: 10px 0px 0px 10px;
+    }
+  }
+
+  .p-sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .p-sidebar-content {
+    position: relative;
+    overflow-y: auto;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .p-sidebar-right {
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+
+    @media (min-width: 768px) {
+      top: 25%;
+      width: 600px;
+      height: 400px;
+    }
+
+    @media (min-width: 992px) {
+      top: 23%;
+      width: 652px;
+      height: 420px;
+    }
   }
 }

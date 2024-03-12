@@ -6,8 +6,11 @@
       <p>{{ "contactDescription" | translate }}</p>
     </div>
     <div class="contact-right">
-      <p-button label="{{ 'buttonAbout' | translate }}"></p-button>
+      <p-button label="{{ 'buttonAbout' | translate }}" (click)="sidebarVisible = true"></p-button>
     </div>
   </div>
-  <div></div>
+
+  <p-sidebar [(visible)]="sidebarVisible" position="right">
+    <ng-template pTemplate="header">{{ "sidebarHome" | translate }}</ng-template>
+    <ng-template pTemplate="content"><landing-form></landing-form></ng-template>  </p-sidebar>
 </section>

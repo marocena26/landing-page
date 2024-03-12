@@ -9,13 +9,15 @@ import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 
 import { TranslateModule,  } from '@ngx-translate/core';
 import { ContactComponent } from './pages/contact/contact.component';
+import { FormComponent } from './components/form/form.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     AboutUsComponent,
     ReasonsToChooseComponent,
-    ContactComponent
+    ContactComponent,
+    FormComponent
   ],
   imports: [
     CommonModule,

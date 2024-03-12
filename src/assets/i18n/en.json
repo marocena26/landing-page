@@ -31,7 +31,11 @@
   "contactSubTitle": "Contact Subtitle",
   "contactDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 
-
+  "formName": "Name",
+  "formLastName": "Last name",
+  "formMobile": "Phone number",
+  "formComment": "Message",
+  "formCommentPlaceHolder": "Please, indicate how we can help you",
 
   "prueba": "Advantages"
 

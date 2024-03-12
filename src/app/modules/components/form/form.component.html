@@ -1,0 +1,70 @@
+<form>
+
+  <div class="wrap">
+    <div class="field form-container ">
+      <label for="nombre">{{ "formName" | translate }}</label>
+      <input
+        id="nombre"
+        type="text"
+        class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+      />
+    </div>
+    <div class="field form-container ">
+      <label for="apellido">{{ "formLastName" | translate }}</label>
+      <input
+        id="apellido"
+        type="text"
+        class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+      />
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="field form-container ">
+      <label for="email">{{ "Correo electrónico" | translate }}</label>
+      <input
+      id="email"
+        type="email"
+        class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+      />
+    </div>
+    <div class="field form-container ">
+      <label for="movil">{{ "formMobile" | translate }}</label>
+      <input
+      id="movil"
+      type="text"
+        class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+      />
+    </div>
+  </div>
+
+  <!-- <div class="wrap">
+    <div class="field">
+      <label for="firstname1">Email</label>
+      <input
+        id="email"
+        type="email"
+        class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary "
+      />
+    </div>
+    <div class="field">
+      <label for="lastname1">{{ "formMobile" | translate }}</label>
+      <input
+        id="movil"
+        type="text"
+        class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary "
+      />
+    </div>
+  </div> -->
+
+  <div class="field">
+    <label for="mensaje">{{ "formComment" | translate }}</label>
+    <textarea
+      id="mensaje"
+      type="text"
+      [placeholder]="'formCommentPlaceHolder' | translate"
+      rows="4"
+      class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+    ></textarea>
+  </div>
+</form>
