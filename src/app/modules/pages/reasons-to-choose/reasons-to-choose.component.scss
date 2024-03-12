@@ -17,6 +17,10 @@
   }
 }
 
+.advantage-img{
+  width: 150px;
+}
+
 // ====================== GENERAL PROPERTIES =================
 
 h2 {
@@ -26,8 +30,12 @@ h2 {
 
 h3 {
   font-size: 20px;
-
   // color: $color-primary;
+}
+
+span {
+  font-size: 16px;
+  max-width: 32ch;
 }
 
 .container-custom {

@@ -1,12 +1,16 @@
 <section class="advantages" id="advantages">
-  <div class="container-custom ">
+  <div class="container-custom">
     <div class="flex flex-column gap-2">
       <h3>{{ "navAdvantages" | translate }}</h3>
       <h2>{{ "advantageTitle" | translate }}</h2>
     </div>
     <div class="advantages-card">
       <div *ngFor="let advantage of advantages" class="advantages-card-item">
-        <img src="" alt="" />
+        <img
+          src="../../../../assets/img/{{ advantage.img }}"
+          alt="{{ advantage.name }}"
+          class="advantage-img"
+        />
         <h3>{{ advantage.name }}</h3>
         <span>{{ advantage.description }}</span>
       </div>

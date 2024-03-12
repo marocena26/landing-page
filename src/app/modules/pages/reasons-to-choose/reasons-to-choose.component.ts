@@ -23,14 +23,17 @@ export class ReasonsToChooseComponent {
   private loadAdvantages() {
     this.advantages = [
       {
+        img: 'heart.svg',
         name: this.translate.instant('advantageSubTitle'),
         description: this.translate.instant('advantageDescription'),
       },
       {
+        img: 'notes.svg',
         name: this.translate.instant('advantageSubTitle2'),
         description: this.translate.instant('advantageDescription2'),
       },
       {
+        img: 'cat.svg',
         name: this.translate.instant('advantageSubTitle3'),
         description: this.translate.instant('advantageDescription3'),
       },

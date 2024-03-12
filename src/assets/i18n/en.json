@@ -3,7 +3,6 @@
   "buttonAbout": "Learn more",
   "sidebarHome": "Shall we talk?",
 
-
   "navAbout": "About us",
   "navAdvantages": "Advantages",
   "navContact": "Contact",
@@ -12,20 +11,18 @@
   "homeSubTitle": "Web Subtitle",
 
   "aboutTitle": "About us",
-  "aboutSubTitle": "About us Subtitle",
-  "aboutDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "aboutSubTitle": "Discover a new way to take care of your health",
+  "aboutDescription": "If you don't currently have a cat and are considering bringing one into your life, you should know that a study conducted with nearly a hundred participants resulted in better scores on a general health questionnaire compared to people who did not have a pet. In people with a pet, there was a significant reduction in the incidence of minor health problems during this period. So... what are you waiting for?",
 
+  "advantageTitle": "The welfare of having a cat as a pet",
+  "advantageSubTitle": "Protect the heart",
+  "advantageDescription": "Living with cats has been associated with reduced blood pressure and, therefore, a lower risk of cardiovascular disease",
 
-  "advantageTitle": "3 reasons to trust us",
-  "advantageSubTitle": "Reason 1",
-  "advantageDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+  "advantageSubTitle2": "Healing purr",
+  "advantageDescription2": "Its vibration stimulates tissue healing, reduces pain and helps relax the brain by lowering anxiety levels.",
 
-  "advantageSubTitle2": "Reason 2",
-  "advantageDescription2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
-
-  "advantageSubTitle3": "Reason 3",
-  "advantageDescription3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
-
+  "advantageSubTitle3": "Therapeutic effect",
+  "advantageDescription3": "Physical contact with pets increases levels of oxytocin, a hormone that is linked to the establishment of social relationships.",
 
   "contactTitle": "Contact",
   "contactSubTitle": "Contact Subtitle",
@@ -33,11 +30,11 @@
 
   "formName": "Name",
   "formLastName": "Last name",
+  "formEmail": "Email address",
+
   "formMobile": "Phone number",
   "formComment": "Message",
   "formCommentPlaceHolder": "Please, indicate how we can help you",
 
   "prueba": "Advantages"
-
-
 }

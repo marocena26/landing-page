@@ -11,18 +11,18 @@
   "homeSubTitle": "Subtítulo web",
 
   "aboutTitle": "Sobre nosotros",
-  "aboutSubTitle": "Sobre nosotros Subtitle",
-  "aboutDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "aboutSubTitle": "Descubre una nueva forma de cuidar tu salud",
+  "aboutDescription": "Si actualmente no tienes gato y te estás planteando dejar entrar uno en tu vida, has de saber que un estudio llevado a cabo con casi un centenar de participantes dio como resultado puntuaciones mejores en un cuestionario de salud general comparado con personas que no tenían mascota. En las personas con mascota hubo una reducción significativa en la incidencia de problemas de salud menores durante este periodo. Así que… ¿a qué estás esperando?",
 
-  "advantageTitle": "3 razones para confiar en nosotros",
-  "advantageSubTitle": "Razón 1",
-  "advantageDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+  "advantageTitle": "El bienestar de tener un gato como mascota",
+  "advantageSubTitle": "Protegen el corazón",
+  "advantageDescription": "Convivir con gatos se ha asociado con la reducción de la presión sanguínea  y, por lo tanto, con un menor riesgo de enfermedades cardiovasculares.",
 
-  "advantageSubTitle2": "Razón 2",
-  "advantageDescription2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+  "advantageSubTitle2": "Ronroneo sanador",
+  "advantageDescription2": "Su vibración estimula la curación de tejidos, reduce el dolor y ayuda a relajar el cerebro disminuyendo los niveles de ansiedad.",
 
-  "advantageSubTitle3": "Razón 3",
-  "advantageDescription3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+  "advantageSubTitle3": "Efecto terapéutico",
+  "advantageDescription3": "El contacto físico con las mascotas incrementa los niveles de oxitocina, una hormona que está vinculada con el establecimiento de relaciones sociales",
 
   "contactTitle": "Contacto",
   "contactSubTitle": "Contacto Subtitle",
@@ -30,6 +30,7 @@
 
   "formName": "Nombre",
   "formLastName": "Apellido",
+  "formEmail": "Correo electrónico",
   "formMobile": "Teléfono",
   "formComment": "Mensaje",
   "formCommentPlaceHolder": "Por favor, indique en qué podemos ayudarle",

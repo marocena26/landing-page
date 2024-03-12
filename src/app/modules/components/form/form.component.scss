@@ -1,7 +1,5 @@
 
-.form-container {
-  width: 242px;
-}
+
 
 
 // ====================== REPONSIVE PROPERTIES =================
@@ -18,5 +16,9 @@
   .wrap{
     display: flex;
     gap: 24px;
+  }
+
+  .form-container {
+    width: 242px;
   }
 }
