@@ -1,21 +1,25 @@
 <main>
   <section class="home" id="home">
-    <div class="flex flex-column gap-2">
-      <h1>{{ "homeTitle" | translate }}</h1>
-      <p>{{ "homeSubTitle" | translate }}</p>
-
-      <a href="#contact"
-        ><p-button label="{{ 'buttonHome' | translate }}"> </p-button
-      ></a>
-    </div>
-    <div (click)="sidebarVisible = true" class="home__contact showSectionDesk">
-      <p
-        class="home__contact-text"
-        (mouseenter)="onHover(true)"
-        (mouseleave)="onHover(false)"
+    <div class="home__container">
+      <div class="flex flex-column gap-2">
+        <h1>{{ "homeTitle" | translate }}</h1>
+        <p>{{ "homeSubTitle" | translate }}</p>
+        <a href="#contact"
+          ><p-button label="{{ 'buttonHome' | translate }}"> </p-button
+        ></a>
+      </div>
+      <div
+        (click)="sidebarVisible = true"
+        class="home__contact showSectionDesk"
       >
-        {{ "sidebarHome" | translate }}
-      </p>
+        <p
+          class="home__contact-text"
+          (mouseenter)="onHover(true)"
+          (mouseleave)="onHover(false)"
+        >
+          {{ "sidebarHome" | translate }}
+        </p>
+      </div>
     </div>
   </section>
 

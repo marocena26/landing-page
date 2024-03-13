@@ -1,15 +1,21 @@
 @import "../../../../themes/variables.scss";
 
 .home {
-  height: 100vh;
-  background: $color-secondary;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url("../../../../assets/img/pexels-septimiu-lupea-669015.jpg");
+  background-image: url("../../../../assets/img/pexels-monica-silvestre-909916.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  &__container {
+    height: 100vh;
+    width: 90%;
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    align-items: center;
+  }
 }
 
 // ====================== GENERAL PROPERTIES =================
@@ -78,5 +84,13 @@ p {
     &__contact {
       height: 420px;
     }
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  p {
+    font-size: 40px;
   }
 }

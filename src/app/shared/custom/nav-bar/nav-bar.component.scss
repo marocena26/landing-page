@@ -1,10 +1,7 @@
 @import "../../../../themes/variables.scss";
 
 .header {
-  z-index: 100;
-  // background-color: white;
-  backdrop-filter: blur(4px);
-
+  background-color: $color-secondary-opacity;
 }
 
 .sticker {
@@ -15,7 +12,7 @@
 }
 
 .nav {
-  padding: 24px 0;
+  padding: 20px 0 12px 0;
   justify-content: space-between;
   align-items: center;
 }
@@ -30,6 +27,11 @@
   font-weight: 500;
   font-size: 18px;
   cursor: pointer;
+}
+
+.sidebar-wrap {
+  width: 200px;
+  text-align: center;
 }
 
 // ====================== GENERAL PROPERTIES =================
@@ -80,7 +82,7 @@ ul {
   bottom: 0;
   width: 100%;
   height: 4px;
-  background-color: $color-secondary;
+  background-color: $color-primary;
   animation: slide-out 300ms ease-in-out forwards;
 }
 
@@ -129,10 +131,6 @@ ul {
     justify-content: space-between;
     align-items: center;
   }
-
-  // .container-custom {
-  //   width: 65%;
-  // }
 
   .nav-icon {
     margin-bottom: 8px;

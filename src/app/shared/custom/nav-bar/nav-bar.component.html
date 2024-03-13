@@ -22,30 +22,30 @@
 
     <p-sidebar [(visible)]="sidebarVisible" position="bottom">
       <ng-template pTemplate="content">
-        <div class="flex justify-content-between pt-2 pb-2">
+        <div class="flex align-items-center gap-4 pt-2 pb-2">
           <div
-            class="flex flex-column align-items-center"
+            class="flex flex-column align-items-center sidebar-wrap"
             (click)="closeSidebar()"
           >
-            <i class="pi pi-user nav-icon-sidebar"></i>
+            <i class="pi pi-id-card nav-icon-sidebar"></i>
             <a href="#about-us">
               <p>{{ "navAbout" | translate }}</p>
             </a>
           </div>
           <div
-            class="flex flex-column align-items-center"
+            class="flex flex-column align-items-center sidebar-wrap"
             (click)="closeSidebar()"
           >
-            <i class="pi pi-code nav-icon-sidebar"></i>
+            <i class="pi pi-heart nav-icon-sidebar"></i>
             <a href="#advantages">
               <p>{{ "navAdvantages" | translate }}</p>
             </a>
           </div>
           <div
-            class="flex flex-column align-items-center"
+            class="flex flex-column align-items-center sidebar-wrap"
             (click)="closeSidebar()"
           >
-            <i class="pi pi-whatsapp nav-icon-sidebar"></i>
+            <i class="pi pi-envelope nav-icon-sidebar"></i>
 
             <a href="#contact">
               <p>{{ "navContact" | translate }}</p>
@@ -76,6 +76,5 @@
         </li>
       </ul>
     </nav>
-
   </div>
 </header>
