@@ -8,7 +8,10 @@
 }
 
 .img-about {
+  height: 400px;
   width: 100%;
+  transform: scaleX(-1);
+  object-fit: cover;
 }
 
 // ====================== GENERAL PROPERTIES =================
@@ -20,7 +23,6 @@ h2 {
 
 h3 {
   font-size: 18px;
-
   color: $color-tertiary;
 }
 

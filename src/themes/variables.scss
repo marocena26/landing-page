@@ -1,20 +1,26 @@
 // * ====================== COLORS ================= *
 
-$color-secondary: #d7d9d9;
-$color-secondary-opacity: rgb(215, 217, 217, 0.5);
+// ? BLACK
 
-$color-tertiary: #a4a665;
-$color-3: #bfbc88;
 $color-primary: #262625;
 $color-primary-opacity: rgb(38, 38, 37, 0.5);
 
+// ? WHITE
+
+$color-secondary: #d7d9d9;
+$color-secondary-opacity: rgb(215, 217, 217, 0.6);
+
+// ? GREEN
+
+$color-tertiary: #a4a665;
+
 $color-primary-hover: $color-tertiary;
-$color-5: #73612d;
 
 // * ====================== BUTTON COLORS ================= *
 
-$button-principal: $color-primary;
+$button-principal: $color-secondary;
 $button-principal-hover: $color-primary-hover;
+$button-secundario: $color-primary;
 
 // * ====================== FONT FAMILY ================= *
 

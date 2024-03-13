@@ -6,17 +6,19 @@
         <h2>{{ "aboutTitle" | translate }}</h2>
         <p>{{ "aboutDescription" | translate }}</p>
       </div>
-      <div>
+      <div id="advantages">
         <p-button
           label="{{ 'buttonAbout' | translate }}"
           (click)="sidebarVisible = true"
+          severity="secondary"
         ></p-button>
       </div>
     </div>
+    <span></span>
   </div>
   <div class="about__background">
     <img
-      src="../../../../assets/img/img-about.jpg"
+      src="../../../../assets/img/pexels-dids-1287518.jpg"
       alt="Cat photo"
       class="img-about"
     />
@@ -28,4 +30,5 @@
     }}</ng-template>
     <ng-template pTemplate="content"><landing-form></landing-form></ng-template>
   </p-sidebar>
+
 </section>

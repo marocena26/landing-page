@@ -1,7 +1,7 @@
 @import "../../../../themes/variables.scss";
 
 .home {
-  background-image: url("../../../../assets/img/pexels-monica-silvestre-909916.jpg");
+  background-image: url("../../../../assets/img/pexels-lucas-pezeta-1930852.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -9,12 +9,13 @@
   &__container {
     height: 100vh;
     width: 90%;
+    padding: 36px 0;
     max-width: none;
     margin-left: auto;
     margin-right: auto;
 
     display: flex;
-    align-items: center;
+    align-items: flex-end;
   }
 }
 
@@ -22,10 +23,12 @@
 
 h1 {
   font-size: 42px;
+  color: $color-secondary;
 }
 
 p {
-  font-size: 24px;
+  font-size: 20px;
+  color: $color-secondary;
 }
 
 .container-custom {
@@ -51,6 +54,9 @@ p {
   }
 
   .home {
+    &__container {
+      align-items: center;
+    }
     &__contact {
       height: 400px;
       position: absolute;
@@ -58,7 +64,7 @@ p {
 
       padding: 36px 24px;
 
-      background: white;
+      background: $color-secondary;
       border-radius: 10px 0px 0px 10px;
       box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
@@ -70,6 +76,7 @@ p {
         letter-spacing: -0.02em;
         transform: rotate(-180deg);
         writing-mode: vertical-rl;
+        color: $color-primary;
       }
     }
   }
@@ -91,6 +98,7 @@ p {
   }
 
   p {
-    font-size: 40px;
+    font-size: 28px;
+    max-width: 20ch;
   }
 }

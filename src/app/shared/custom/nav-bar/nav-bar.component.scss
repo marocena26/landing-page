@@ -2,6 +2,7 @@
 
 .header {
   background-color: $color-secondary-opacity;
+  z-index: 100;
 }
 
 .sticker {
@@ -80,7 +81,7 @@ ul {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 101%;
   height: 4px;
   background-color: $color-primary;
   animation: slide-out 300ms ease-in-out forwards;
