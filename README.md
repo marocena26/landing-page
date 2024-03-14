@@ -23,6 +23,7 @@ The following tools have been used when solving the project:
   - Services
   - Directives - ngIf and ngFor
 - **GIT version control**
+- **Testing**
 - **JSON**: To change the language (ES - EN)
 - **Design**
   - Canva
