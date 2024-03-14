@@ -7,7 +7,7 @@
   background-size: cover;
 
   &__container {
-    height: 100vh;
+    height: 100svh;
     width: 90%;
     padding: 36px 0;
     max-width: none;
@@ -52,6 +52,9 @@ p {
   .home {
     background-image: url("../../../../assets/img/img-home.jpg");
     background-position: center;
+    &__container {
+      height: 100vh;
+    }
   }
 }
 
