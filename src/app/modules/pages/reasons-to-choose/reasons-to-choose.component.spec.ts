@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ReasonsToChooseComponent } from './reasons-to-choose.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 describe('ReasonsToChooseComponent', () => {
   let component: ReasonsToChooseComponent;
@@ -8,7 +9,8 @@ describe('ReasonsToChooseComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ReasonsToChooseComponent]
+      declarations: [ReasonsToChooseComponent],
+      imports: [TranslateModule.forRoot()]
     });
     fixture = TestBed.createComponent(ReasonsToChooseComponent);
     component = fixture.componentInstance;

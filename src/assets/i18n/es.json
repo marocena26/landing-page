@@ -38,7 +38,5 @@
   "validationCharacter": "Se requieren al menos {{ requiredLength }} caracteres",
   "validationEmail": "Introduzca una dirección de correo electrónico válida",
   "sendingSuccess": "¡Correo electrónico enviado con éxito!",
-  "sendingError": "Error al enviar el correo electrónico. Por favor, inténtalo de nuevo más tarde.",
-
-  "prueba": "Advantages"
+  "sendingError": "Error al enviar el correo electrónico. Por favor, inténtalo de nuevo más tarde."
 }

@@ -39,7 +39,5 @@
   "validationCharacter": "At least {{ requiredLength }} characters are required",
   "validationEmail": "Enter a valid email address",
   "sendingSuccess": "Email sent successfully!",
-  "sendingError": "Error sending the email. Please try again later.",
-
-  "prueba": "Advantages"
+  "sendingError": "Error sending the email. Please try again later."
 }

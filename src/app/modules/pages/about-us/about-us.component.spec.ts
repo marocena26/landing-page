@@ -1,6 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AboutUsComponent } from './about-us.component';
+import { TranslateModule } from '@ngx-translate/core';
+import { PrimeNgModule } from 'src/app/prime-ng/prime-ng.module';
 
 describe('AboutUsComponent', () => {
   let component: AboutUsComponent;
@@ -8,7 +10,8 @@ describe('AboutUsComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [AboutUsComponent]
+      declarations: [AboutUsComponent],
+      imports: [TranslateModule.forRoot(), PrimeNgModule]
     });
     fixture = TestBed.createComponent(AboutUsComponent);
     component = fixture.componentInstance;
