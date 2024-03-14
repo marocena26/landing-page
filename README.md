@@ -4,7 +4,7 @@ Welcome!👏🏻 ​In this repository you can find the files generated in the c
 
 The main objective of this exercise is to create a **responsive landing page** from scratch where you can **practice and play with Angular, typescript and different design tools**.
 
-NOTE: Direct link to the project by clicking on the following **[link](https://landing-purrfect-match.netlify.app/)**
+> **NOTE:** Direct link to the project by clicking on the following **[link](https://landing-purrfect-match.netlify.app/)** 👈🏻
 
 ## 📄​ Description 
 
