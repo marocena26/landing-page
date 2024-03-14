@@ -1,5 +1,19 @@
 # Landing Page - Purrfect Match 🐈‍⬛​
 
+Welcome!👏🏻 ​In this repository you can find the files generated in the creation of the **Landing Page - Purrfect Match**
+
+The main objective of this exercise is to create a **responsive landing page** from scratch where you can **practice and play with Angular, typescript and different design tools**.
+
+NOTE: Direct link to the project by clicking on the following **[link](https://landing-purrfect-match.netlify.app/)**
+
+## 👾 Description 
+
+If you currently don't have a cat and you are thinking about letting one into your life, this space is perfect for you. In Purrfect Match we present a **simple, intuitive and adapted to any type of device**(mobile, tablet and PC) so you can take a look at it anytime, anywhere. Based on our **own design**, the website will allow you to know some of the many benefits of having a cat as a life companion. 
+
+For the **development** of this landing has been **used the `ngx-translate`  library** to add the option to change the **language**, you can access the **content in both Spanish and English**. 
+
+On the other hand, the project **uses EmailService to send the contact form** that is attached, for its operation we have used **Angular's reactive forms**. 
+
 ## 🛠️ Tools
 
 The following tools have been used when solving the project:
@@ -20,7 +34,9 @@ The following tools have been used when solving the project:
   - Modules
   - Components
   - Imports
+  - Injections
   - Services
+  - Reactive Forms
   - Directives - ngIf and ngFor
 - **GIT version control**
 - **Testing**
