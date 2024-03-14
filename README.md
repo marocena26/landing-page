@@ -6,7 +6,7 @@ The main objective of this exercise is to create a **responsive landing page** f
 
 NOTE: Direct link to the project by clicking on the following **[link](https://landing-purrfect-match.netlify.app/)**
 
-## 👾 Description 
+## 📄​ Description 
 
 If you currently don't have a cat and you are thinking about letting one into your life, this space is perfect for you. In Purrfect Match we present a **simple, intuitive and adapted to any type of device**(mobile, tablet and PC) so you can take a look at it anytime, anywhere. Based on our **own design**, the website will allow you to know some of the many benefits of having a cat as a life companion. 
 
@@ -77,7 +77,7 @@ npm or yarn start
 
 After running `npm/yarn start` we can start editing all the files inside the src/ folder and program comfortably 💫
 
-## ✨ Credits & Feedback
+## 🌻​ Credits & Feedback
 
 Designed & Developed By **Elena Arocena: [@marocena26](https://github.com/marocena26)**
 
