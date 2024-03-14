@@ -5,12 +5,10 @@ import { Advantages } from 'src/app/interfaces/advantages';
 @Component({
   selector: 'reasons-to-choose',
   templateUrl: './reasons-to-choose.component.html',
-  styleUrls: ['./reasons-to-choose.component.scss']
+  styleUrls: ['./reasons-to-choose.component.scss'],
 })
 export class ReasonsToChooseComponent {
-
   advantages: Advantages[] = [];
-
 
   constructor(private translate: TranslateService) {
     this.translate.onLangChange.subscribe(() => {
@@ -39,5 +37,4 @@ export class ReasonsToChooseComponent {
       },
     ];
   }
-
 }

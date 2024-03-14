@@ -10,7 +10,7 @@ describe('FooterComponent', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [FooterComponent],
-      imports: [TranslateModule.forRoot()]
+      imports: [TranslateModule.forRoot()],
     });
     fixture = TestBed.createComponent(FooterComponent);
     component = fixture.componentInstance;

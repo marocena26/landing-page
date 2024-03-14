@@ -4,10 +4,9 @@ import { TranslateService } from '@ngx-translate/core';
 @Component({
   selector: 'home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent {
-
   sidebarVisible: boolean = false;
 
   constructor(private translate: TranslateService) {
@@ -21,5 +20,4 @@ export class HomeComponent {
   onHover(hover: boolean) {
     if (hover) this.sidebarVisible = hover;
   }
-
 }

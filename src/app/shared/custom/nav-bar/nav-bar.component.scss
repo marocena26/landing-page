@@ -73,6 +73,8 @@ ul {
   font-size: 16px;
   display: block;
   transition: all 0.2s;
+  margin-bottom: 8px;
+
 }
 
 .item a::after {
@@ -137,7 +139,5 @@ ul {
     margin-bottom: 8px;
   }
 
-  .item a {
-    margin-bottom: 8px;
-  }
+
 }

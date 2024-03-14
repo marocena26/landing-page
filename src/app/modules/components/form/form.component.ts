@@ -14,10 +14,9 @@ import { EmailService } from 'src/app/services/email.service';
   styleUrls: ['./form.component.scss'],
 })
 export class FormComponent implements OnInit {
-
   public correoEnviadoExitosamente: boolean = false;
   public errorAlEnviarCorreo: boolean = false;
-  
+
   public myForm: FormGroup = this.fb.group({
     name: ['', [Validators.required, Validators.minLength(3)]],
     lastname: ['', [Validators.required, Validators.minLength(3)]],
@@ -26,7 +25,11 @@ export class FormComponent implements OnInit {
     message: ['', [Validators.required, Validators.minLength(10)]],
   });
 
-  constructor(private fb: FormBuilder, private translate: TranslateService,     private emailService: EmailService    ) {}
+  constructor(
+    private fb: FormBuilder,
+    private translate: TranslateService,
+    private emailService: EmailService
+  ) {}
 
   ngOnInit(): void {}
 
@@ -78,6 +81,6 @@ export class FormComponent implements OnInit {
       }
     );
 
-    this.myForm.reset({ price: 0, inStorage: 0 });
+    this.myForm.reset();
   }
 }

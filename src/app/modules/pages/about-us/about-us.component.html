@@ -6,7 +6,7 @@
         <h2>{{ "aboutTitle" | translate }}</h2>
         <p>{{ "aboutDescription" | translate }}</p>
       </div>
-      <div id="advantages">
+      <div>
         <p-button
           label="{{ 'buttonAbout' | translate }}"
           (click)="sidebarVisible = true"
@@ -30,5 +30,4 @@
     }}</ng-template>
     <ng-template pTemplate="content"><landing-form></landing-form></ng-template>
   </p-sidebar>
-
 </section>

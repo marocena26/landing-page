@@ -6,7 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 
-
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
@@ -16,11 +15,11 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     AppComponent
   ],
   imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
     AppRoutingModule,
-    SharedModule,
+    BrowserAnimationsModule,
+    BrowserModule,
     HttpClientModule,
+    SharedModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

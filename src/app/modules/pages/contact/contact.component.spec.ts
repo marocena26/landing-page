@@ -1,8 +1,9 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { TranslateModule } from '@ngx-translate/core';
+
+import { PrimeNgModule } from 'src/app/prime-ng/prime-ng.module';
 
 import { ContactComponent } from './contact.component';
-import { TranslateModule } from '@ngx-translate/core';
-import { PrimeNgModule } from 'src/app/prime-ng/prime-ng.module';
 
 describe('ContactComponent', () => {
   let component: ContactComponent;
@@ -11,7 +12,10 @@ describe('ContactComponent', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [ContactComponent],
-      imports: [TranslateModule.forRoot(), PrimeNgModule]
+      imports: [
+        PrimeNgModule,
+        TranslateModule.forRoot(),
+      ]
     });
     fixture = TestBed.createComponent(ContactComponent);
     component = fixture.componentInstance;

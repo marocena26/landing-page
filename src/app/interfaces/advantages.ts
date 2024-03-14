@@ -1,6 +1,5 @@
 export interface Advantages {
-img: string;
+  img: string;
   name: string;
   description: string;
-
 }
