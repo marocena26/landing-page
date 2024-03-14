@@ -1,9 +1,5 @@
 # Landing Page - Purrfect Match 🐈‍⬛​
 
-## 👩🏻‍💻 Author
-
-- **Elena Arocena: [@marocena26](https://github.com/marocena26)**
-
 ## 🛠️ Tools
 
 The following tools have been used when solving the project:
@@ -24,6 +20,7 @@ The following tools have been used when solving the project:
   - Modules
   - Components
   - Imports
+  - Services
   - Directives - ngIf and ngFor
 - **GIT version control**
 - **JSON**: To change the language (ES - EN)
@@ -52,12 +49,13 @@ npm install or yarn
 npm install or yarn add primeng
 npm install or yarn add primeicons
 npm install or yarn add primeflex
+npm install or yarn add @ngx-translate/core @ngx-translate/http-loader 
 ```
 
 The project has to be **started** every time we start programming, to do this we will execute the **command**:
 
 ```bash
-npm start or yarn start
+npm or yarn start
 ```
 
 After running `npm/yarn start` we can start editing all the files inside the src/ folder and program comfortably 💫
