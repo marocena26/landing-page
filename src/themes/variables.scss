@@ -2,23 +2,28 @@
 
 // ? BLACK
 
+$black: #000000;
 $color-primary: #262625;
 $color-primary-opacity: rgb(38, 38, 37, 0.5);
 
 // ? WHITE
 
-$color-secondary: #d7d9d9;
-$color-secondary-opacity: rgb(215, 217, 217, 0.6);
+$color-secondary: white;
+$color-secondary-opacity: rgb(255, 255, 255, 0.5);
 
-// ? GREEN
+// ? LAVANDER
 
-$color-tertiary: #a4a665;
+$color-tertiary: #866aa8;
+$lavender-web: #E8E6F3ff;
+
+// ? HOVER
 
 $color-primary-hover: $color-tertiary;
 
+
 // * ====================== BUTTON COLORS ================= *
 
-$button-principal: $color-secondary;
+$button-principal: $color-primary;
 $button-principal-hover: $color-primary-hover;
 $button-secundario: $color-primary;
 

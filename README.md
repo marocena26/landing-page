@@ -10,9 +10,9 @@ The following tools have been used when solving the project:
 
 - **HTML**
 - **CSS/Sass**
-  -  Variables, mixins and functions
-  -  Flexbox and Box model
-  -  Media queries
+  - Variables, mixins and functions
+  - Flexbox and Box model
+  - Media queries
 - **Component library**
   - PrimeNg
   - PrimeFLex
@@ -53,13 +53,17 @@ npm install or yarn add primeng
 npm install or yarn add primeicons
 npm install or yarn add primeflex
 ```
+
 The project has to be **started** every time we start programming, to do this we will execute the **command**:
 
 ```bash
 npm start or yarn start
 ```
+
 After running `npm/yarn start` we can start editing all the files inside the src/ folder and program comfortably 💫
 
-## ✨ Credits & Feedback 
+## ✨ Credits & Feedback
 
-- **Elena Arocena: [@marocena26](https://github.com/marocena26)**
+Designed & Developed By **Elena Arocena: [@marocena26](https://github.com/marocena26)**
+
+Any input is most welcome. Thank you very much!

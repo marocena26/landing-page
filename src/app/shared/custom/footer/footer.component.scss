@@ -6,14 +6,9 @@
 }
 
 .footer-icon {
-  // color: $color-secondary;
   font-weight: 500;
   font-size: 24px;
   transition: 0.5s;
-  &:hover {
-    transition: 0.5s;
-    // color: $color-tertiary;
-  }
 }
 
 .lenguage-icon {
@@ -29,7 +24,7 @@ a {
   transition: 0.5s;
   &:hover {
     transition: 0.5s;
-    color: $color-tertiary;
+    color: $lavender-web;
   }
 }
 
@@ -70,8 +65,4 @@ ul {
   ul {
     font-size: 16px;
   }
-
-  // .container-custom {
-  //   width: 65%;
-  // }
 }

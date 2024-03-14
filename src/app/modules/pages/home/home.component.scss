@@ -1,9 +1,9 @@
 @import "../../../../themes/variables.scss";
 
 .home {
-  background-image: url("../../../../assets/img/pexels-lucas-pezeta-1930852.jpg");
+  background-image: url("../../../../assets/img/img-home-mobile.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
   background-size: cover;
 
   &__container {
@@ -23,12 +23,12 @@
 
 h1 {
   font-size: 42px;
-  color: $color-secondary;
+  color: $color-primary;
 }
 
 p {
   font-size: 20px;
-  color: $color-secondary;
+  color: $color-primary;
 }
 
 .container-custom {
@@ -46,6 +46,13 @@ p {
 
 .showSectionDesk {
   display: none;
+}
+
+@media (min-width: 576px) {
+  .home {
+    background-image: url("../../../../assets/img/img-home.jpg");
+    background-position: center;
+  }
 }
 
 @media (min-width: 768px) {
