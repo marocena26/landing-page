@@ -79,6 +79,6 @@ After running `npm/yarn start` we can start editing all the files inside the src
 
 ## 🌻​ Credits & Feedback
 
-Designed & Developed By **Elena Arocena: [@marocena26](https://github.com/marocena26)**
+Designed & Developed By **[Elena Arocena](https://github.com/marocena26)**
 
 Any input is most welcome. Thank you very much!
