@@ -10,6 +10,7 @@ import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 import { TranslateModule,  } from '@ngx-translate/core';
 import { ContactComponent } from './pages/contact/contact.component';
 import { FormComponent } from './components/form/form.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,9 @@ import { FormComponent } from './components/form/form.component';
     CommonModule,
     ModulesRoutingModule,
     PrimeNgModule,
-    TranslateModule
+    TranslateModule,
+    ReactiveFormsModule,
+    FormsModule,
   ]
 })
 export class ModulesModule { }

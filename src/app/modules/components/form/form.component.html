@@ -1,70 +1,86 @@
-<form>
-
+<form [formGroup]="myForm" (ngSubmit)="onSave()">
   <div class="wrap">
-    <div class="field form-container ">
-      <label for="nombre">{{ "formName" | translate }}</label>
-      <input
-        id="nombre"
-        type="text"
-        class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-      />
+    <div class="field form-container">
+      <label for="name">{{ "formName" | translate }}*</label>
+      <div>
+        <input
+          id="name"
+          type="text"
+          formControlName="name"
+          class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+        />
+        <span *ngIf="isValidField('name')" class="form-text text-danger">
+          {{ getFieldError("name") }}
+        </span>
+      </div>
     </div>
-    <div class="field form-container ">
-      <label for="apellido">{{ "formLastName" | translate }}</label>
-      <input
-        id="apellido"
-        type="text"
-        class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-      />
+    <div class="field form-container">
+      <label for="lastname">{{ "formLastName" | translate }}*</label>
+      <div>
+        <input
+          id="lastname"
+          type="text"
+          formControlName="lastname"
+          class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+        />
+        <span *ngIf="isValidField('lastname')" class="form-text text-danger">
+          {{ getFieldError("lastname") }}
+        </span>
+      </div>
     </div>
   </div>
 
   <div class="wrap">
-    <div class="field form-container ">
-      <label for="email">{{ "formEmail" | translate }}</label>
-      <input
-      id="email"
-        type="email"
-        class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-      />
+    <div class="field form-container">
+      <label for="email">{{ "formEmail" | translate }}*</label>
+      <div>
+        <input
+          id="email"
+          type="email"
+          formControlName="email"
+          class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+        />
+        <span *ngIf="isValidField('email')" class="form-text text-danger">
+          {{ getFieldError("email") }}
+        </span>
+      </div>
     </div>
-    <div class="field form-container ">
-      <label for="movil">{{ "formMobile" | translate }}</label>
+    <div class="field form-container">
+      <label for="phone">{{ "formMobile" | translate }}</label>
       <input
-      id="movil"
-      type="text"
+        id="phone"
+        type="text"
+        formControlName="phone"
         class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
       />
     </div>
   </div>
-
-  <!-- <div class="wrap">
-    <div class="field">
-      <label for="firstname1">Email</label>
-      <input
-        id="email"
-        type="email"
-        class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary "
-      />
-    </div>
-    <div class="field">
-      <label for="lastname1">{{ "formMobile" | translate }}</label>
-      <input
-        id="movil"
-        type="text"
-        class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary "
-      />
-    </div>
-  </div> -->
 
   <div class="field">
-    <label for="mensaje">{{ "formComment" | translate }}</label>
-    <textarea
-      id="mensaje"
-      type="text"
-      [placeholder]="'formCommentPlaceHolder' | translate"
-      rows="4"
-      class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
-    ></textarea>
+    <label for="message">{{ "formComment" | translate }}*</label>
+    <div>
+      <textarea
+        id="message"
+        type="text"
+        formControlName="message"
+        [placeholder]="'formCommentPlaceHolder' | translate"
+        rows="4"
+        class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full"
+      ></textarea>
+      <span *ngIf="isValidField('message')" class="form-text text-danger">
+        {{ getFieldError("message") }}
+      </span>
+    </div>
+  </div>
+  <span *ngIf="correoEnviadoExitosamente" class="text-green-600">
+    {{ "sendingSuccess" | translate }}
+  </span>
+  <span *ngIf="errorAlEnviarCorreo" class="text-danger">
+    {{ "sendingError" | translate }}
+  </span>
+  <div class="row">
+    <div class="col">
+      <p-button type="submit" class="float-end"> Enviar </p-button>
+    </div>
   </div>
 </form>

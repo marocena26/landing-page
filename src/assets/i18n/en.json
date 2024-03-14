@@ -35,6 +35,11 @@
   "formMobile": "Phone number",
   "formComment": "Message",
   "formCommentPlaceHolder": "Please, indicate how we can help you",
+  "validationField": "This field is required",
+  "validationCharacter": "At least {{ requiredLength }} characters are required",
+  "validationEmail": "Enter a valid email address",
+  "sendingSuccess": "Email sent successfully!",
+  "sendingError": "Error sending the email. Please try again later.",
 
   "prueba": "Advantages"
 }
