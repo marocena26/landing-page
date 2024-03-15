@@ -66,16 +66,10 @@
     width: 100%;
     height: 100%;
 
-    @media (min-width: 768px) {
-      top: 25%;
-      width: 600px;
-      height: 400px;
-    }
-
     @media (min-width: 992px) {
-      top: 23%;
+      top: 21%;
       width: 652px;
-      height: 420px;
+      height: 460px;
     }
   }
 }

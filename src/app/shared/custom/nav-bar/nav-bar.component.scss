@@ -26,12 +26,13 @@
 
 .nav-icon-sidebar {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
+  color: $color-tertiary;
 }
 
 .sidebar-wrap {
-  width: 200px;
+  width: 14ch;
   text-align: center;
 }
 
@@ -42,6 +43,7 @@ a {
   font-weight: 500;
   color: $color-primary;
 }
+
 
 p {
   margin: 8px 0;

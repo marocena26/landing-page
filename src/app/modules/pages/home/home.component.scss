@@ -58,7 +58,7 @@ p {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .showSectionDesk {
     display: flex;
   }
@@ -68,7 +68,7 @@ p {
       align-items: center;
     }
     &__contact {
-      height: 400px;
+      height: 440px;
       position: absolute;
       right: 0;
 
@@ -88,18 +88,6 @@ p {
         writing-mode: vertical-rl;
         color: $color-primary;
       }
-    }
-  }
-}
-
-@media (min-width: 992px) {
-  .showSectionDesk {
-    display: flex;
-  }
-
-  .home {
-    &__contact {
-      height: 420px;
     }
   }
 
