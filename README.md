@@ -12,9 +12,9 @@ The main objective of this exercise is to create a **responsive landing page** f
 
 ## 📄​ Description 
 
-If you currently don't have a cat and you are thinking about letting one into your life, this space is perfect for you. In Purrfect Match we present a **simple, intuitive and adapted to any type of device**(mobile, tablet and PC) so you can take a look at it anytime, anywhere. Based on our **own design**, the website will allow you to know some of the many benefits of having a cat as a life companion. 
+If you currently don't have a cat and you are thinking about letting one into your life, this space is perfect for you. In Purrfect Match we present a **simple web, intuitive and adapted to any type of device**(mobile, tablet and PC) so you can take a look at it anytime, anywhere. Based on our **own design**, the website will allow you to know some of the many benefits of having a cat as a life companion. 
 
-This project **employs `ngx-translate` for content internationalization**, enabling **dynamic translation** of the user interface (ES-EN). It also makes use of **Angular's reactive forms for efficient form management**, facilitating **data validation and user interaction** with the application in an intuitive and robust way."
+This project **employs `ngx-translate` for content internationalization**, enabling **dynamic translation** of the user interface (ES-EN). It also makes use of **Angular's reactive forms for efficient form management**, facilitating **data validation and user interaction** with the application in an intuitive and robust way.
 
 It also uses **Jasmine and Karma for unit and integration testing**, ensuring the **quality and reliability of the code**.
 
